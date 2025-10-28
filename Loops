@@ -1,0 +1,16 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+    	Console.Write("How many times should the loop run? (X) "); 
+		int X = Convert.ToInt32(Console.ReadLine()); 
+		
+		for (int i = 1; i <=  X; i++) 
+		{	
+			Console.WriteLine("Loop iteration: " + i);  
+		} 
+		
+		Console.WriteLine("The loop has finished running.");   
+	} 
+}
